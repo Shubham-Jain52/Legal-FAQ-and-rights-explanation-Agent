@@ -1,0 +1,43 @@
+# --- Python (Backend) ---
+# Virtual Environment
+venv/
+.venv/
+env/
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+# Distribution / builds
+dist/
+build/
+*.egg-info/
+
+# --- Node.js (Frontend) ---
+# Dependencies
+node_modules/
+# Build output
+dist/
+dist-ssr/
+*.local
+# ESLint / Prettier cache
+.eslintcache
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Project Specific ---
+# Secret environment variables (if any)
+.env
+.env.local
+.env.*.local
+# Uploaded PDFs (You usually don't want to push these to GitHub)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
