@@ -136,14 +136,4 @@ Interactive docs available at: `http://localhost:8000/docs`
 
 ---
 
-## Team
-
-| Member | Role |
-|--------|------|
-| **Shubham Jain** | Team Lead |
-
----
-
-## License
-
-This project is for educational and research purposes only.
+## License\n\nThis project is for educational and research purposes only.
