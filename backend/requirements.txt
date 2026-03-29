@@ -1,0 +1,30 @@
+# --- Core Framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- PDF Processing ---
+PyMuPDF==1.25.3
+
+# --- LlamaIndex (v0.14+ modular) ---
+llama-index-core==0.14.15
+llama-index-readers-file==0.1.6
+llama-index-vector-stores-chroma==0.5.5
+llama-index-embeddings-huggingface==0.6.1
+llama-index-llms-groq==0.4.1
+
+# --- Vector Store ---
+chromadb==0.5.23
+
+# --- Embeddings Runtime ---
+sentence-transformers==2.7.0
+
+# --- Utilities ---
+python-dotenv==1.0.1
+
+# ──────────────────────────────────────────────
+# NOTE: Install CPU-only PyTorch first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Then install this file:
+#   pip install -r requirements.txt
+# ──────────────────────────────────────────────
